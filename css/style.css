@@ -1,0 +1,53 @@
+/* Header*/
+header {
+    background-color: #3C5B6F;
+    
+}
+/* Body */
+body {
+    background-color: #948979;
+}
+/* Enlaces del navegador */
+.enlaces-navegador {
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: end;
+}
+/*Sección de animales en adopcion*/
+.adopcion{
+    background-color: #153448;
+}
+h2,h3 {
+    color:antiquewhite;
+    text-align: center;
+}
+.fila {
+    display: flex;
+    border: 5px solid #0e1f2a;
+    justify-content: center;
+}
+.fila img {
+    width: 33%;
+    padding: 5px;
+}
+
+/*Sección de animales adoptados con carrousel*/
+.adoptados{
+
+}
+#carouselExample {
+    display: flex;
+    border: 5px solid;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.carousel-item {
+
+}
+.carousel-item img {
+    height: 50em;
+    width: 80%
+    object-fit: cover;
+    overflow: hidden;
+}

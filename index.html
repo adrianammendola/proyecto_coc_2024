@@ -16,20 +16,53 @@
     <!-- aca se coloca la barra de navegacion-->
     <header>
         <nav>
-
+            <div class="enlaces-navegador">
+                <a>Inicio</a>
+                <a>Gatos en adopción</a>
+                <a>Gatos adoptados</a>
+                <a>Sobre nosotros</a>
+                <a>Contactanos</a>
+            </div>
         </nav>
 
     </header>
     <!--aca se coloca la seccion de animales en adopcion-->
 
-    <section>
-
+    <section class="adopcion">
+        <h2>Buscás un compañero?</h2>
+        <h3>Adoptá, no compres!</h3>
+        <div class="fila">
+            <img src="./imagenes/calico.jpg" alt="gato tricolor">
+            <img src="./imagenes/cortina.jpg" alt="gato y cortina">
+            <img src="./imagenes/gris.jpg" alt="gato gris">
+        </div>
     </section>
 
     <!-- aca se coloca la seccion de animales adoptados con carrousel-->
 
-    <section>
-
+    <section class="adoptados">
+        <h2>Historias de éxito</h2>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenes/mini.jpg" class="d-block w-100" alt="gato pequeño">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/ojitos.jpg" class="d-block w-100" alt="gato ojos celestes">
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/sentado.jpg" class="d-block w-100" alt="gato sentado">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
     </section>
 
     <!-- aca se coloca el formulario para adopciones-->

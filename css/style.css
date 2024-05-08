@@ -7,6 +7,54 @@ header {
 body {
     background-color: #948979;
 }
+
+/* Navbar */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #ffcc00;
+}
+
+.img-logo-principal{
+    width: 10%;
+}
+
 /* Enlaces del navegador */
 .enlaces-navegador {
     font-family: Helvetica;
@@ -51,3 +99,98 @@ h2,h3 {
     object-fit: cover;
     overflow: hidden;
 }
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    width: 100%;
+
+    
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.footer form button {
+    background-color: #ffcc00;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer form button:hover {
+    background-color: #ffc100;
+}
+
+.footer-column {
+    flex: 1; 
+    margin-right: 20px;
+}
+
+.footer-column:last-child {
+    margin-right: 0; 
+}
+
+ img{ 
+    width: 60%;
+    text-align: center;
+}
+
+.img-logo{
+    text-align: center;
+}
+
+.social-icons img {
+    width: 40px; /* Ajustar el tamaño de los íconos de redes sociales */
+    margin: 0 5px; /* Agregar un margen entre los íconos */
+
+}
+
+.social-icons{
+    margin-top: 10px;
+    text-align: center;
+}
+

@@ -101,15 +101,18 @@ h2,h3 {
     background-color: #f9f9f9;
 }
 
-
-
 .button-enviar{
     margin-top: 10px;
 }
 
-.carousel-container{
-    background-color: red;
+.apadrinar-section .carousel-item img{
+    height: 30em;
 }
+
+.apadrinar-section .carousel{
+    margin-left: 7em;
+}
+
 
 
 /* Footer */
@@ -175,14 +178,6 @@ h2,h3 {
     background-color: #ffc100;
 }
 
-.footer-column {
-    flex: 1; 
-    margin-right: 20px;
-}
-
-.footer-column:last-child {
-    margin-right: 0; 
-}
 
  img{ 
     width: 60%;
@@ -194,8 +189,8 @@ h2,h3 {
 }
 
 .social-icons img {
-    width: 40px; /* Ajustar el tamaño de los íconos de redes sociales */
-    margin: 0 5px; /* Agregar un margen entre los íconos */
+    width: 40px; 
+    margin: 0 5px; 
 
 }
 
@@ -204,3 +199,6 @@ h2,h3 {
     text-align: center;
 }
 
+.footer-column-suscribirse{
+    margin-top: 3em;
+}

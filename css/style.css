@@ -61,6 +61,8 @@ nav{
     background-color: #153448;
 }
 h2,h3 {
+    font-family: "Inconsolata";
+    font-weight: bold;
     color:antiquewhite;
     text-align: center;
 }
@@ -75,16 +77,18 @@ h2,h3 {
 }
 
 /*Sección de animales adoptados con carrousel*/
-.adoptados{
-
+.adoptados h2{
+    font-family: "Inconsolata";
+    margin-top: 5%;
 }
 #carouselExample {
     display: flex;
     border: 5px solid;
     justify-content: center;
-    width: 50%;
-    margin: auto;
+    width: 25%;
+    margin: 5% auto 5% auto;
 }
+/*esto es css del carrousel anterior, estoy probando cosas
 .carousel-item {
 
 }
@@ -92,6 +96,27 @@ h2,h3 {
     height: 50em;
     width: 80%
     object-fit: cover;
+    overflow: hidden;
+}*/
+
+.bg-img-1 {
+    background-image: url(../imagenes/mini.jpg);
+}
+
+.bg-img-2 {
+    background-image:url(../imagenes/ojitos.jpg);
+}
+
+.bg-img-3 {
+    background-image:url(../imagenes/sentado.jpg) ;
+}
+
+.carousel-image {
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -209,16 +234,15 @@ h2,h3 {
 
 /*Pantallas hasta 470px */
 @media screen and (max-width: 470px){
-    .navbar {}
     .navbar .container {display: grid;
         grid-template-columns: 3fr 1fr;
         column-gap: 20px;}
     .img-logo-principal {width: 60px ; max-height: 50px;}
-    .adopcion {}
-    .adoptados {}
-    .adoptados .carousel-item {}
+    .carousel-image {
+    }}
     .apadrinar-section {}
     .footer .container {flex-direction: column;}
+    .social-icons {margin-bottom: 10%;margin-top: 10%;}
 }
 
 /*Pantallas hasta 600px*/

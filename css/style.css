@@ -239,12 +239,11 @@ h2,h3 {
         column-gap: 20px;}
     .img-logo-principal {width: 60px ; max-height: 50px;}
     .carousel-image {
-    }}
+    }
     .apadrinar-section {}
     .footer .container {flex-direction: column;}
     .social-icons {margin-bottom: 10%;margin-top: 10%;}
 }
-
 /*Pantallas hasta 600px*/
 @media screen and (min-width: 471px) and (max-width: 600px){
     .navbar {}

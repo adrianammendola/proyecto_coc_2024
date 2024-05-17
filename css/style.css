@@ -9,14 +9,15 @@ body {
 }
 
 /* Navbar */
-
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 .navbar {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
 }
-
-
 
 .logo {
     font-size: 24px;
@@ -54,6 +55,7 @@ body {
     font-weight: bold;
     text-align: end;
 }
+
 /*Sección de animales en adopcion*/
 .adopcion{
     background-color: #153448;
@@ -201,4 +203,42 @@ h2,h3 {
 
 .footer-column-suscribirse{
     margin-top: 3em;
+}
+
+/* Media queries */
+
+/*Pantallas hasta 470px */
+@media screen and (max-width: 470px){
+    .navbar {}
+    .navbar .container {display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 20px;}
+    .img-logo-principal {width: 60px ; max-height: 50px;}
+    .adopcion {}
+    .adoptados {}
+    .adoptados .carousel-item {}
+    .apadrinar-section {}
+    .footer .container {flex-direction: column;}
+}
+
+/*Pantallas hasta 600px*/
+@media screen and (min-width: 471px) and (max-width: 600px){
+    .navbar {}
+    .navbar .container {}
+    .adopcion {}
+    .adoptados {}
+    .adoptados .carousel-item {}
+    .apadrinar-section {}
+    .footer .container {}
+}
+
+/*Pantallas hasta 900px*/
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .navbar {}
+    .navbar .container {}
+    .adopcion {}
+    .adoptados {}
+    .adoptados .carousel-item {}
+    .apadrinar-section {}
+    .footer .container {align-content: center;}
 }

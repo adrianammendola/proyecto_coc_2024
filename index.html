@@ -18,20 +18,25 @@
 <body>
     <!-- aca se coloca la barra de navegacion-->
     <header id="inicio">
-        <nav class="navbar">
-            <div class="container">
-                <div class="img-logo-principal">
-                    <img src="./imagenes/logo2.jpeg" alt="Logo" />
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#adoptar">Adoptar</a></li>
-                    <li><a href="#apadrinar">Apadrinar</a></li>
-                    <li><a href="#donar">Donar</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./imagenes/logo2.jpeg" alt="Logo" class="img-logo-principal" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#adoptar">Adoptar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apadrinar">Apadrinar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#donar">Donar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
     </header>
     <!--aca se coloca la seccion de animales en adopcion-->
 
@@ -141,7 +146,7 @@
     <!--aca se coloca el pie de pagina-->
     <footer class="footer">
         <div class="container">
-            <div class="footer-column-logo">
+            <div class="footer-column-logo" id="contacto">
                 <h3>Contacto</h3>
                 <div class="img-logo">
                     <img src="./imagenes/logo2.jpeg" alt="Logo" />
@@ -175,6 +180,8 @@
 
     <!--aca se colocan los script-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="js/script.js"></script>
 </body>
 

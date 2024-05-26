@@ -104,15 +104,15 @@ h2,h3 {
 }*/
 
 .bg-img-1 {
-    background-image: url(../imagenes/mini.jpg);
+    background-image: url(../imagenes/blanco.jpg);
 }
 
 .bg-img-2 {
-    background-image:url(../imagenes/ojitos.jpg);
+    background-image:url(../imagenes/chiquito.jpg);
 }
 
 .bg-img-3 {
-    background-image:url(../imagenes/sentado.jpg) ;
+    background-image:url(../imagenes/grisoscuro.jpg) ;
 }
 
 .carousel-image {

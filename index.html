@@ -31,7 +31,7 @@
                         <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#adoptar">Adoptar</a></li>
                         <li class="nav-item"><a class="nav-link" href="#apadrinar">Apadrinar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#donar">Donar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./donaciones.html">Donar</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
@@ -107,6 +107,23 @@
                                 <label for="motivo">Motivo de adopción:</label>
                                 <textarea class="form-control" id="motivo" name="motivo" required></textarea>
                             </div>
+                            <div>
+                                <label for="checkbox">He leído los términos y condiciones:</label>
+                                <input type="checkbox" required>
+                            </div>
+                            <div>
+                                <label for="select">Cómo nos conoció?</label>
+                                <select name="select">
+                                    <option value="Seleccionar">Seleccione uno</option>
+                                    <option value="redes">Redes sociales</option>
+                                    <option value="amigos">Amigos/Conocidos</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="subirfoto">Adjuntá tu solicitud firmada</label>
+                                <input type="file" id="subirfoto">
+                            </div>
                             <div class="button-enviar">
                                 <button type="submit" class="btn btn-primary">Enviar</button>
                             </div>
@@ -165,7 +182,7 @@
                     <li><a href="#adopcion">Adoptar</a></li>
                     <li><a href="#adoptados">Adoptados</a></li>
                     <li><a href="#apadrinar">Apadrinar</a></li>
-                    <li><a href="#donar">Donar</a></li>
+                    <li><a href="donaciones.html">Donar</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>

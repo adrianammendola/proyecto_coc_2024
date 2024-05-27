@@ -1,0 +1,20 @@
+.contacto{
+    align-content: center;
+}
+
+.footer-column-logo {
+    width: 15%;
+    max-height: 40%;
+}
+
+.footer-column-logo social-icons{
+    width: 15%;
+}
+
+.img-logo-principal{
+    width: 15%;
+}
+.img-logo-contacto{
+    
+    text-align: center;
+}

@@ -239,6 +239,13 @@ h2,h3 {
     margin-top: 3em;
 }
 
+.formulario-contacto{
+    justify-content: space-around;
+}
+
+.apadrinar-section label{
+    margin-top: 0.9em;
+}
 /* Media queries */
 /* Celular */
 @media screen and (max-width: 470px) {

@@ -220,6 +220,8 @@ h2,h3 {
 
 .img-logo{
     text-align: center;
+    width: 75%;
+    margin-left: 4em;
 }
 
 .social-icons img {
